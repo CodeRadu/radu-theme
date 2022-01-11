@@ -1,0 +1,26 @@
+{
+  "name": "radu-theme",
+  "displayName": "Radu theme",
+  "description": "Radu's theme for vscode",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Radu theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Radu theme-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coderadu/radu-theme.git"
+  },
+  "publisher": "radu"
+}
